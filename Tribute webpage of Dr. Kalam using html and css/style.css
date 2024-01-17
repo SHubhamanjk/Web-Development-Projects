@@ -1,0 +1,67 @@
+/* Apply styles to all elements */
+* {
+    background-color: #e5e5fd;
+    /* text-align: center; */ /* Uncomment this line to center-align text globally */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styling for the photo div */
+#photo {
+    background-image: url(apj.jpg);
+    border-radius: 50%;
+    border-color: #e5e5fd;
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+/* Styling for the name heading */
+#name {
+    color: #1d1e4c;
+    margin-left: 40%;
+    margin-top: -9%;
+    font-size: 50px;
+}
+
+/* Styling for the date of birth heading */
+#dob {
+    margin-left: 70%;
+    margin-top: -3%;
+    font-size: 30px;
+}
+
+/* Styling for the main content section */
+main {
+    margin-left: 15%;
+    /* text-align: center; */ /* Uncomment this line to center-align text within the main section */
+}
+
+/* Styling for the main title */
+#title {
+    margin-bottom: -1%;
+    font-size: 70px;
+    font-weight: lighter;
+}
+
+/* Styling for the main content paragraph */
+#about {
+    line-height: 35px;
+    text-align: justify;
+    margin-right: 16%;
+    font-size: 20px;
+}
+
+/* Styling for list items in the biographies section */
+li {
+    font-size: 16px;
+    line-height: 35px;
+}
+
+/* Styling for the "Read More" link */
+#readmore {
+    margin-left: 52%;
+    margin-bottom: 2%;
+}
